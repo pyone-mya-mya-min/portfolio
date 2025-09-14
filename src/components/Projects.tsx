@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, MapPin, Calendar } from 'lucide-react';
+import { MapPin, Calendar } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -7,21 +7,21 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'Carabao Headquarters Project',
+      title: 'Carabao Headquarter Project',
       category: 'Civil Engineering',
-      location: 'Thailand',
-      year: '2024 - Present',
-      image: '/1755574285924.jpeg',
-      description: 'Currently serving as Civil Engineer for the Carabao Headquarters Project, inspecting civil and structural works to ensure design, quality, and safety compliance.',
-      features: ['Civil Works Inspection', 'Quality Compliance', 'Safety Protocols', 'Progress Monitoring']
+      location: 'Bangkok, Thailand',
+      year: 'Aug 2025 - Present',
+      image: '/carabo.jpeg',
+      description: 'Currently serving as Civil Engineer for the Carabao Headquarter Project, inspecting project and structural works to ensure design, quality, and safety compliance.',
+      features: ['Project Works Inspection', 'Quality Compliance', 'Safety Protocols', 'Progress Monitoring']
     },
     {
       id: 2,
       title: 'Centara Reserve Krabi Resort',
       category: 'Design Coordination',
       location: 'Krabi, Thailand',
-      year: '2024 - Present',
-      image: '/1702982955103.jpeg',
+      year: 'Feb 2025 - Present',
+      image: '/krabi.jpeg',
       description: 'Design Coordinator for luxury resort project, coordinating multidisciplinary design team and maintaining drawing logs with streamlined review processes.',
       features: ['Design Coordination', 'Drawing Management', 'Client Reporting', 'Team Collaboration']
     },
@@ -30,18 +30,18 @@ const Projects: React.FC = () => {
       title: 'Canopy by Hilton Bangkok',
       category: 'Project Coordination',
       location: 'Bangkok, Thailand',
-      year: '2024',
-      image: '/1702983025778.jpeg',
+      year: 'Jun 2024 - Aug 2025',
+      image: '/canopy.jpeg',
       description: 'Project Coordinator for Hilton hotel project, coordinating communication among international consultants, contractors, and Hilton team.',
       features: ['International Coordination', 'Progress Monitoring', 'Risk Management', 'Client Relations']
     },
     {
       id: 4,
-      title: 'Samsung E&A Refinery Project',
+      title: 'Thai Oil Clean Fuel Project (CFP)',
       category: 'Project Engineering',
       location: 'Chon Buri, Thailand',
-      year: '2022 - 2023',
-      image: '/1702983189899.jpeg',
+      year: 'Mar 2022 - Aug 2023',
+      image: '/samsung.jpeg',
       description: 'Project Engineer supporting refinery upgrade execution, ensuring compliance with schedule, safety, and quality standards.',
       features: ['Refinery Engineering', 'Safety Compliance', 'Procurement Coordination', 'Progress Reporting']
     }
@@ -56,8 +56,8 @@ const Projects: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Showcasing successful civil engineering projects across various sectors, 
-            demonstrating expertise in infrastructure development and construction management
+            Showcasing successful project engineering projects across various sectors, 
+            demonstrating expertise in construction development and construction management
           </p>
         </div>
 
@@ -103,11 +103,6 @@ const Projects: React.FC = () => {
                   </li>
                 ))}
               </ul>
-
-              <button className="flex items-center text-blue-600 hover:text-blue-700 font-semibold transition-colors">
-                <ExternalLink className="h-5 w-5 mr-2" />
-                View Project Details
-              </button>
             </div>
           </div>
         </div>

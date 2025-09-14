@@ -18,8 +18,7 @@ const Skills: React.FC = () => {
       icon: Wrench,
       title: 'Engineering Skills',
       skills: [
-        'Civil Engineering',
-        'Structural Design',
+        'Project Engineering',
         'Site Supervision',
         'Quality Control',
         'Safety Management'
@@ -68,7 +67,7 @@ const Skills: React.FC = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+    <section id="skills" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -77,7 +76,7 @@ const Skills: React.FC = () => {
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive skill set spanning technical expertise, project management, 
-            and engineering solutions for complex infrastructure projects
+            and engineering solutions for complex construction projects
           </p>
         </div>
 

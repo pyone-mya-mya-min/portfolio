@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Mail, Phone, MapPin, Linkedin, Twitter, Github } from 'lucide-react';
+import { Building2, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -15,18 +15,12 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">Pyone Mya Mya Min</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
-              Project Coordinator and Civil Engineer bringing expertise in project management, 
-              design coordination, and engineering solutions for complex infrastructure projects.
+              Project Coordinator and Project Engineer bringing expertise in project management, 
+              design coordination, and engineering solutions for complex construction projects.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/pyone-mya-mya-min/" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-                <Github className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -35,7 +29,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              {['About', 'Projects', 'Services', 'Skills', 'Experience', 'Contact'].map((item) => (
+              {['About', 'Projects', 'Skills', 'Experience', 'Contact'].map((item) => (
                 <li key={item}>
                   <button
                     onClick={() => document.getElementById(item.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })}
@@ -73,17 +67,6 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 text-sm">
               © {currentYear} Pyone Mya Mya Min. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Site Credits
-              </a>
-            </div>
           </div>
         </div>
       </div>

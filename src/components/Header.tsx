@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           </div>
 
           <nav className="hidden md:flex space-x-8">
-            {['About', 'Projects', 'Services', 'Skills', 'Experience', 'Contact'].map((item) => (
+            {['About', 'Projects', 'Skills', 'Experience', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {['About', 'Projects', 'Services', 'Skills', 'Experience', 'Contact'].map((item) => (
+              {['About', 'Projects', 'Skills', 'Experience', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}

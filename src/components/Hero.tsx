@@ -12,9 +12,9 @@ const Hero: React.FC = () => {
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          Project Coordinator &
+          Construction Project Management
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-white">
-            Civil Engineer
+            Design & Coordination
           </span>
         </h1>
         

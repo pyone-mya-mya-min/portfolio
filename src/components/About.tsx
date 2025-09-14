@@ -1,11 +1,11 @@
 import React from 'react';
-import { Award, Users, Calendar, Target } from 'lucide-react';
+import { Award, Building, Calendar, Target } from 'lucide-react';
 
 const About: React.FC = () => {
   const stats = [
-    { icon: Calendar, number: '2+', label: 'Years Experience' },
-    { icon: Target, number: '10+', label: 'Projects Completed' },
-    { icon: Users, number: '5+', label: 'Team Members Led' },
+    { icon: Calendar, number: '3+', label: 'Years Experience' },
+    { icon: Target, number: '4+', label: 'Projects' },
+    { icon: Building, number: '3+', label: 'Industries Served' },
     { icon: Award, number: '3+', label: 'Certifications' }
   ];
 
@@ -18,8 +18,7 @@ const About: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Dedicated civil engineer with extensive experience in infrastructure development, 
-            project management, and sustainable construction practices
+            Focused on delivering excellence in construction development, project management, and sustainable infrastructure
           </p>
         </div>
 
@@ -27,12 +26,12 @@ const About: React.FC = () => {
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Professional Background</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              As a dedicated Project Coordinator and Civil Engineer, I bring expertise in project management 
+              As a dedicated Project Coordinator and Project Engineer, I bring expertise in project management 
               and engineering with strong skills in organization, problem-solving, and collaboration. 
-              Currently working on major infrastructure projects including the Carabao Headquarters Project.
+              Currently working on major construction projects including the Carabao Headquarter Project.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              My experience spans from luxury resort developments to industrial facilities, where I've 
+              My experience spans from industrial facilities to luxury resort developments, where I've 
               successfully coordinated multidisciplinary teams, managed design reviews, and ensured 
               compliance with safety and quality standards across all project phases.
             </p>
@@ -62,15 +61,14 @@ const About: React.FC = () => {
               <div className="space-y-4">
                 {[
                   { skill: 'Project Coordination', level: 95 },
-                  { skill: 'AutoCAD & Revit', level: 85 },
+                  { skill: 'AutoCAD, Revit, Primavera P6 & MS Project', level: 85 },
                   { skill: 'Site Supervision', level: 90 },
-                  { skill: 'Quality Control', level: 88 },
+                  { skill: 'Communication', level: 88 },
                   { skill: 'Team Coordination', level: 92 }
                 ].map((item, index) => (
                   <div key={index}>
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium text-gray-700">{item.skill}</span>
-                      <span className="text-sm text-gray-500">{item.level}%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div 

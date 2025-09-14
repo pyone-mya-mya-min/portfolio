@@ -8,9 +8,9 @@ const Experience: React.FC = () => {
       position: 'Project Coordinator',
       company: 'Project Planning Services PLC. (PPS)',
       location: 'Bangkok, Thailand',
-      description: 'Currently serving as Civil Engineer on the Carabao Headquarters Project and Design Coordinator for Centara Reserve Krabi Resort.',
+      description: 'Currently serving as Civil Engineer on the Carabao Headquarter Project and Design Coordinator for Centara Reserve Krabi Resort.',
       achievements: [
-        'Inspect civil and structural works ensuring design, quality, and safety compliance',
+        'Inspect project and structural works ensuring design, quality, and safety compliance',
         'Coordinate multidisciplinary design team across resort facilities',
         'Reduced approval time to maximum 2 days through streamlined review processes',
         'Maintain incident-free operations through safety protocol enforcement'
@@ -29,12 +29,6 @@ const Experience: React.FC = () => {
         'Led mechanical walkdowns (MCWD) and prepared mark-up drawings for turnover packages'
       ]
     }
-  ];
-
-  const certifications = [
-    'Autodesk Revit Beginner to Intermediate Level - Udemy',
-    'Primavera P6 Project Planning and Scheduling Masterclass - Udemy',
-    'Diploma in Project Management - Strategy First University (SFU)'
   ];
 
   const education = [
@@ -125,21 +119,6 @@ const Experience: React.FC = () => {
                     <p className="text-gray-700 text-sm">{edu.specialization}</p>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            {/* Certifications */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Certifications</h3>
-              <div className="bg-white rounded-lg p-6 shadow-lg">
-                <ul className="space-y-3">
-                  {certifications.map((cert, index) => (
-                    <li key={index} className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                      <span className="text-gray-700">{cert}</span>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
 
