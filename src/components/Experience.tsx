@@ -121,18 +121,6 @@ const Experience: React.FC = () => {
                 ))}
               </div>
             </div>
-
-            {/* Skills Highlight */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
-              <h4 className="font-bold text-gray-900 mb-4">Technical Expertise</h4>
-              <div className="flex flex-wrap gap-2">
-                {['AutoCAD', 'Revit', 'SAP2000', 'ETABS', 'Project Management', 'Quality Control'].map((skill, index) => (
-                  <span key={index} className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>
